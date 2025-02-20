@@ -1,0 +1,124 @@
+---
+import HtmlIcon from "./svg/htmlIcon.astro";
+import CssIcon from "./svg/cssIcon.astro";
+import JsIcon from "./svg/JavascriptIcon.astro";
+import SassIcon from "./svg/SassIcon.astro";
+---
+
+<section id="projects" class="py-10">
+    <div
+        class="h-full flex flex-col justify-evenly items-center gap-10
+     lg:flex-row lg:flex-wrap lg:h-200
+     xl:h-screen
+     2xl:items-center 2xl:gap-0 2xl:py-30 2xl:px-80"
+    >
+        <div class="project w-70 sm:w-100 xl:w-135 2xl:w-120 hiddenLeft">
+            <div
+                class="project__top bg-black/50 w-50 py-2 px-3 rounded-t-md shadow-lg shadow-white/20"
+            >
+                <div class="languag flex gap-3">
+                    <HtmlIcon />
+                    <SassIcon />
+                    <JsIcon />
+                </div>
+            </div>
+            <div
+                class="project__project rounded-md rounded-tl-none overflow-hidden relative
+            shadow-lg shadow-white/10 group"
+            >
+                <a
+                    aria-label="link to project"
+                    href="https://adolfin07.github.io/cardValidator/"
+                    target="_blank"
+                    class="absolute w-full h-full flex justify-center items-center hover:bg-black/50 ease-linear duration-200"
+                >
+                    <i
+                        class="fa-solid fa-arrow-up-right-from-square text-3xl text-white/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                    ></i>
+                </a>
+                <img src="/public/project1-mockup.jpg" class="" alt="" />
+            </div>
+        </div>
+        <div class="project w-70 sm:w-100 xl:w-135 2xl:w-120 hiddenRight">
+            <div
+                class="project__top bg-black/50 w-50 py-2 px-3 rounded-t-md shadow-lg shadow-white/20"
+            >
+                <div class="languag flex gap-3">
+                    <HtmlIcon />
+                    <SassIcon />
+                    <JsIcon />
+                </div>
+            </div>
+            <div
+                class="project__project rounded-md rounded-tl-none overflow-hidden relative
+            shadow-lg shadow-white/10 group"
+            >
+                <a
+                    aria-label="link to project"
+                    href="https://adolfin07.github.io/PogoFuture/"
+                    target="_blank"
+                    class="absolute w-full h-full flex justify-center items-center hover:bg-black/50 ease-linear duration-200"
+                >
+                    <i
+                        class="fa-solid fa-arrow-up-right-from-square text-3xl text-white/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                    ></i>
+                </a>
+                <img src="/public/project2-mockup.jpg" class="" alt="" />
+            </div>
+        </div>
+        <div class="project w-70 sm:w-100 xl:w-135 2xl:w-120 hiddenLeft">
+            <div
+                class="project__top bg-black/50 w-50 py-2 px-3 rounded-t-md shadow-lg shadow-white/20"
+            >
+                <div class="languag flex gap-3">
+                    <HtmlIcon />
+                    <CssIcon />
+                    <JsIcon />
+                </div>
+            </div>
+            <div
+                class="project__project rounded-md rounded-tl-none overflow-hidden relative
+            shadow-lg shadow-white/10 group"
+            >
+                <a
+                    aria-label="link to project"
+                    href="https://adolfin07.github.io/ReivajCell/"
+                    target="_blank"
+                    class="absolute w-full h-full flex justify-center items-center hover:bg-black/50 ease-linear duration-200"
+                >
+                    <i
+                        class="fa-solid fa-arrow-up-right-from-square text-3xl text-white/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                    ></i>
+                </a>
+                <img src="/public/project3-mockup.jpg" class="" alt="" />
+            </div>
+        </div>
+        <div class="project w-70 sm:w-100 xl:w-135 2xl:w-120 hiddenRight">
+            <div
+                class="project__top bg-black/50 w-50 py-2 px-3 rounded-t-md shadow-lg shadow-white/20"
+            >
+                <div class="languag flex gap-3">
+                    <HtmlIcon />
+                    <CssIcon />
+                    <JsIcon />
+                </div>
+            </div>
+            <div
+                class="project__project rounded-md rounded-tl-none overflow-hidden relative
+            shadow-lg shadow-white/10 group"
+            >
+                <a
+                    aria-label="link to project"
+                    href="https://adolfin07.github.io/VictorBurger/"
+                    target="_blanks"
+                    class="absolute w-full h-full flex justify-center items-center hover:bg-black/50 ease-linear duration-200"
+                >
+                    <i
+                        class="fa-solid fa-arrow-up-right-from-square text-3xl text-white/80 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                    ></i>
+                </a>
+                <img src="/public/project4-mockup.jpg" class="" alt="" />
+            </div>
+        </div>
+    </div>
+</section>

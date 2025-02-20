@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+}
+
+/* Color y estilo del thumb (la barra desplazable) */
+::-webkit-scrollbar-thumb {
+    background: #6a1e5557;
+    border-radius: 5px;
+}
+
+/* Cambiar el color del thumb al pasar el cursor */
+::-webkit-scrollbar-thumb:hover {
+    background: #58264a;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #230530;
+}
+
+.hiddenLeft {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.showLeft {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hiddenRight {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.showRight {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hiddenUp {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+.showUp {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+.toggle{
+    margin-top: 0;
+}
+
+
+
